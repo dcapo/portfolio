@@ -2,7 +2,6 @@
 
     function openPhotoSwipe(items) {
         return function(e) {
-            debugger;
             var pswpElement = document.querySelectorAll('.pswp')[0];
 
             var options = {
@@ -137,22 +136,18 @@
             h: 900
         }, {
             src: '/img/piano_stand_6.jpg',
-            w: 1200,
-            h: 900
+            w: 900,
+            h: 1200
         }, {
             src: '/img/piano_stand_7.jpg',
-            w: 900,
-            h: 1200
-        }, {
-            src: '/img/piano_stand_8.jpg',
             w: 1200,
             h: 900
         }, {
-            src: '/img/piano_stand_9.jpg',
+            src: '/img/piano_stand_8.jpg',
             w: 900,
             h: 1200
         }, {
-            src: '/img/piano_stand_10.jpg',
+            src: '/img/piano_stand_9.jpg',
             w: 1200,
             h: 900
         }
@@ -160,11 +155,11 @@
 
     $(".bbq.thumbnail").on("click", openPhotoSwipe([
         {
-            src: '/img/bbq_0.png',
+            src: '/img/bbq_0.jpg',
             w: 640,
             h: 480
         }, {
-            src: '/img/bbq_1.png',
+            src: '/img/bbq_1.jpg',
             w: 640,
             h: 480
         }, {
@@ -204,7 +199,7 @@
             w: 640,
             h: 480
         }, {
-            src: '/img/bbq_11.png',
+            src: '/img/bbq_11.jpg',
             w: 640,
             h: 480
         }, {
@@ -229,16 +224,16 @@
             h: 900
         }, {
             src: '/img/bbq_17.jpg',
-            w: 900,
-            h: 1200
+            w: 1200,
+            h: 900
         }, {
             src: '/img/bbq_18.jpg',
             w: 1200,
             h: 900
         }, {
             src: '/img/bbq_19.jpg',
-            w: 900,
-            h: 1200
+            w: 1200,
+            h: 900
         }, {
             src: '/img/bbq_20.jpg',
             w: 1200,
