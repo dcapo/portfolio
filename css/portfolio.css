@@ -31,5 +31,15 @@ a:link {
 
 .thumbnail:hover {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
-    /*border: 1px solid #888;*/
+}
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+    #grid[data-columns]::before {
+        content: '2 .col-sm-6';
+    }
+}
+@media screen and (min-width:992px) {
+    #grid[data-columns]::before {
+        content: '3 .col-md-4';
+    }
 }
