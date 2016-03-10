@@ -11,6 +11,10 @@ $(function() {
         };
     }
 
+    $(".thumbnail a").on("click", function(e) {
+        e.stopImmediatePropagation();
+    });
+
     $(".cornhole.thumbnail").on("click", openLightGallery([
         {
             src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/cornhole_0.jpg'
@@ -62,6 +66,9 @@ $(function() {
             src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/set_5.png'
         }, {
             src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/set_6.png'
+        }, {
+            src: 'https://www.youtube.com/watch?v=YX6GuELqX3U',
+            autoplay: 1
         }
     ]));
 
@@ -134,6 +141,12 @@ $(function() {
             src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/bbq_20.jpg'
         }, {
             src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/bbq_21.jpg'
+        }
+    ]));
+
+    $(".peet.thumbnail").on("click", openLightGallery([
+        {
+            src: 'https://www.youtube.com/watch?v=pd_rx-yp0e8'
         }
     ]));
 });
