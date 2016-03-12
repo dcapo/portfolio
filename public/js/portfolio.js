@@ -12,7 +12,7 @@ $(function() {
         return function(e) {
             $(this).lightGallery({
                 mode: 'lg-fade',
-                speed: 0,
+                speed: 200,
                 dynamic: true,
                 dynamicEl: items
             });
