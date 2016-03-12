@@ -28,7 +28,7 @@
 
 <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -37,48 +37,41 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a href="#"><img class="logo" src="/img/dc_logo.png" /></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a class="page-scroll" href="#portfolio"><i class="fa fa-th"></i>PORTFOLIO</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a class="page-scroll" href="https://github.com/dcapo"><i class="fa fa-github"></i>GITHUB</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a class="page-scroll" href="https://medium.com/@danielcapo"><i class="fa fa-medium"></i>BLOG</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container">
-
-        <header class="jumbotron hero-spacer">
-            <h1>A Warm Welcome!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-
-            <div>
-                <a class="btn btn-primary btn-large"><i class="fa fa-github"></i> Github</a>
-                <a class="btn btn-primary btn-large"><i class="fa fa-medium"></i> Blog</a>
+    <header class="header">
+        <div class="container">
+            <div class="row page-title">
+                <img class="gravatar" src="https://s.gravatar.com/avatar/ea26a76006aeaf0e49afe476832f9e59?s=180" />
+                <h1>Daniel Capo • Portfolio</h1>
             </div>
-
-        </header>
-
-        <hr>
-
-        <div class="row">
-            <div class="col-lg-12">
-                <h3>Projects, Professional and Otherwise</h3>
+            <div class="row">
+                <h3>Hey there! My name's Dan and I'm a <span class="bold">software engineer</span> and aspiring <span class="bold">product designer</span> from San Francisco.</p>
+                <h4>Below you'll find a collection of some of my recent projects, both professional and otherwise. Most are things I picked up in my spare time. Granted I'm not a master welder, carpenter, game designer, or electrical engineer, but I am a determined and enthusiastic pretender.</p>
             </div>
         </div>
+    </header>
 
-        <div id="grid" class="row text-center" data-columns>
+    <div class="container">
+        <div id="portfolio" class="row text-center" data-columns>
 
-            <div class="hero-feature">
+            <div class="portfolio-item">
                 <a href="https://get1806.com">
                     <div class="thumbnail">
                         <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/1806_1.png" alt="1806 Cocktails">
@@ -90,7 +83,7 @@
                 </a>
             </div>
 
-            <div class="hero-feature">
+            <div class="portfolio-item">
                 <div class="bolt thumbnail">
                     <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/bolt_12.png" alt="">
                     <div class="caption">
@@ -103,19 +96,19 @@
                 </div>
             </div>
 
-            <div class="hero-feature">
+            <div class="portfolio-item">
                 <a href="http://pressplay.pbworks.com/w/page/27028915/Final%20Project%3A%20Real-Time%20MIDI%20Drum%20Pad#">
                     <div class="thumbnail">
                         <img src="http://pressplay.pbworks.com/f/1276409860/IMG_0074.JPG" alt="MIDI Drumpad">
                         <div class="caption">
                             <h3>MIDI Drumpad</h3>
-                            <p>A foray into Arduino tinkering and electrical engineering. Please excuse my lack of rhythm.</p>
+                            <p>A foray into Arduino tinkering and hardware design. Please excuse my lack of rhythm.</p>
                         </div>
                     </div>
                 </a>
             </div>
 
-            <div class="hero-feature">
+            <div class="portfolio-item">
                 <div class="set thumbnail">
                     <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/set_screenshots.png" alt="Set! for iOS">
                     <div class="caption">
@@ -127,7 +120,7 @@
                 </div>
             </div>
 
-            <div class="hero-feature">
+            <div class="portfolio-item">
                 <a href="http://www.emilycapo.com">
                     <div class="thumbnail">
                         <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/emily_capo_portfolio.png" alt="Emily Capo Photography">
@@ -139,7 +132,7 @@
                 </a>
             </div>
 
-            <div class="hero-feature">
+            <div class="portfolio-item">
                 <div class="piano thumbnail">
                     <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_2.jpg" alt="">
                     <div class="caption">
@@ -151,7 +144,7 @@
                 </div>
             </div>
 
-            <div class="hero-feature">
+            <div class="portfolio-item">
                 <div class="bbq thumbnail">
                     <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/bbq_18.jpg" alt="">
                     <div class="caption">
@@ -163,7 +156,7 @@
                 </div>
             </div>
 
-            <div class="hero-feature">
+            <div class="portfolio-item">
                 <div class="cornhole thumbnail">
                     <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/cornhole_0.jpg" alt="Cornhole: 2 Proud, 2 Prejudiced">
                     <div class="caption">
@@ -175,7 +168,7 @@
                 </div>
             </div>
 
-            <div class="hero-feature">
+            <div class="portfolio-item">
                 <div class="peet thumbnail">
                     <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/peet.png" alt="">
                     <div class="caption">
@@ -185,7 +178,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <hr>
@@ -201,6 +193,7 @@
     </div>
 
     <script src="/vendor/jquery/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="/vendor/lightgallery/js/lightgallery.min.js"></script>
     <script src="/vendor/lightgallery/js/lg-video.min.js"></script>

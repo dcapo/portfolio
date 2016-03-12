@@ -1,5 +1,13 @@
 $(function() {
 
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1000, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
     function openLightGallery(items) {
         return function(e) {
             $(this).lightGallery({
@@ -74,17 +82,26 @@ $(function() {
 
     $(".piano.thumbnail").on("click", openLightGallery([
         {
-            src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_0.png'
+            src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_0.png',
+            subHtml: '<h3>Gratuitous CAD</h3>\
+                      <p>I started in Sketchup with the dimensions of my keyboard, speakers, and laptop. \
+                      I wanted a platform for resting my computer for reading, recording, instruments, etc.</p>'
         }, {
-            src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_1.png'
+            src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_1.png',
+            subHtml: '<h3>Gratuitous CAD</h3>\
+                      <p>Other goals: space for music, hidden cables, and in terms of aesthetics, clearly I went for a gross, boxy approximation of an upright piano...'
         }, {
-            src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_2.jpg'
+            src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_2.jpg',
+            subHtml: '<h3>Glamour Shots</h3>\
+                      <p>The stand is little more than oak plywood and pine molding; altogether under $100. I definitely spent more on tools than I did on raw materials.</p>'
         }, {
-            src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_3.jpg'
+            src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_3.jpg',
+            subHtml: "<h3>Glamour Shots</h3>\
+                      <p>Two coats of mahogany stain, two coats of polyurethane. Next time I'll go lighter.</p>"
         }, {
-            src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_4.jpg'
-        }, {
-            src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_5.jpg'
+            src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_4.jpg',
+            subHtml: '<h3>Glamour Shots</h3>\
+                      <p>Note the carriage bolts: the two bases break away from the tabletop for easier moving.</p>'
         }, {
             src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_6.jpg'
         }, {
@@ -92,7 +109,9 @@ $(function() {
         }, {
             src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_8.jpg'
         }, {
-            src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_9.jpg'
+            src: 'https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_9.jpg',
+            subHtml: "<h3>Glamour Shots</h3>\
+                      <p>After playing, I have to remind myself to put away my music. Can't let that jigsaw work on the music stand go hiding!</p>"
         }
     ]));
 
