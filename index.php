@@ -37,7 +37,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#"><img class="logo" src="/img/dc_logo.png" /></a>
+                <a href="#"><img class="logo" src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/img/dc_logo.png" /></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
@@ -74,7 +74,7 @@
             <div class="portfolio-item">
                 <a href="https://get1806.com">
                     <div class="thumbnail">
-                        <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/1806_1.png" alt="1806 Cocktails">
+                        <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/img/1806_1.png" alt="1806 Cocktails">
                         <div class="caption">
                             <h3>1806 Cocktails</h3>
                             <p>My most recent and largest scale project. Got to wear lots of hats: lead designer, iOS developer, and backend engineer.</p>
@@ -85,12 +85,12 @@
 
             <div class="portfolio-item">
                 <div class="bolt thumbnail">
-                    <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/bolt_12.png" alt="">
+                    <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/img/bolt_12.png" alt="">
                     <div class="caption">
                         <h3>Bolt: Mobile Ad Creator Tool</h3>
                         <p>Bolt was my main focus during my time at <a href="http://conversantmedia.com">Conversant</a>.
-                           The web app helped internal ad designers quickly build interactive video, flash, and custom HTML5 ad formats,
-                           which ran on both iOS and Android.
+                           The web app helps ad designers quickly build interactive mobile ad formats,
+                           which get shown to millions of users daily.
                         </p>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
 
             <div class="portfolio-item">
                 <div class="set thumbnail">
-                    <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/set_screenshots.png" alt="Set! for iOS">
+                    <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/img/set_screenshots.png" alt="Set! for iOS">
                     <div class="caption">
                         <h3>Set! for iOS</h3>
                         <p>For some reason, Set Enterprises didn't always offer an iPhone version of their game.
@@ -123,7 +123,7 @@
             <div class="portfolio-item">
                 <a href="http://www.emilycapo.com">
                     <div class="thumbnail">
-                        <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/emily_capo_portfolio.png" alt="Emily Capo Photography">
+                        <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/img/emily_capo_portfolio.png" alt="Emily Capo Photography">
                         <div class="caption">
                             <h3>Emily Capo Photography</h3>
                             <p>A simple photography portfolio, and my very first stab at web dev.</p>
@@ -134,7 +134,7 @@
 
             <div class="portfolio-item">
                 <div class="piano thumbnail">
-                    <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/piano_stand_2.jpg" alt="">
+                    <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/img/piano_stand_2.jpg" alt="">
                     <div class="caption">
                         <h3>Piano Stand</h3>
                         <p>I bought a fancy Roland keyboard around the same time of a shameless 
@@ -146,7 +146,7 @@
 
             <div class="portfolio-item">
                 <div class="bbq thumbnail">
-                    <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/bbq_18.jpg" alt="">
+                    <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/img/bbq_18.jpg" alt="">
                     <div class="caption">
                         <h3>Tabletop Barbecue</h3>
                         <p>I made this barbecue in a manufacturing design class at Stanford.
@@ -158,7 +158,7 @@
 
             <div class="portfolio-item">
                 <div class="cornhole thumbnail">
-                    <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/cornhole_0.jpg" alt="Cornhole: 2 Proud, 2 Prejudiced">
+                    <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/img/cornhole_0.jpg" alt="Cornhole: 2 Proud, 2 Prejudiced">
                     <div class="caption">
                         <h3>Cornhole: 2 Proud, 2 Prejudiced</h3>
                         <p>When your girlfriend is a cornhole prodigy and loves both
@@ -170,7 +170,7 @@
 
             <div class="portfolio-item">
                 <div class="peet thumbnail">
-                    <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/peet.png" alt="">
+                    <img src="https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/img/peet.png" alt="">
                     <div class="caption">
                         <h3>The PEET System</h3>
                         <p>Reimagining Caltrain in Stanford's Human Values in Design class,

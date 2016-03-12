@@ -1,25 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Cabin);
 @font-face {
     font-family: 'Bebas Neue';
-    src: url('/fonts/bebas/regular.ttf') format('truetype');
+    src: url('https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/fonts/bebas/regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Bebas Neue';
     font-weight: 200;
-    src: url('/fonts/bebas/book.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Antic Slab';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Antic Slab'), local('AnticSlab-Regular'), url(http://fonts.gstatic.com/s/anticslab/v4/8c9q46CAcsp9TiRX9KLgZAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+    src: url('https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/fonts/bebas/book.ttf') format('truetype');
 }
 
 body {
-    background-image: url('/img/backgrounds/white_diamond.png');
-    font-family: "Cabin", sans-serif;
+    background-image: url('https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/img/backgrounds/white_diamond.png');
+    font-family: "HelveticaNeue-Light", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar {
     margin-bottom: 0;
-    font-family: 'Bebas Neue';
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .gravatar {
@@ -44,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .page-title h1 {
     font-size: 60px;
-    font-family: 'Bebas Neue';
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 200;
     text-shadow: 5px 5px 30px #505050;
     display: inline-block;
@@ -54,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
     height: 25px;
-    margin: 11px 40px 11px 0px;;
+    margin: 11px 40px 11px 11px;;
 }
 
 .navbar .fa {
@@ -76,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
     padding: 50px 0;
-    background: url('/img/backgrounds/blue.png');
+    background: url('https://s3-us-west-1.amazonaws.com/daniel-capo-portfolio/img/backgrounds/blue.png');
     color: white;
     box-shadow:inset 0 0 20px rgba(0,0,0,0.3)
 }
@@ -87,13 +79,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .header h3 {
     margin: 30px 0;
-    font-family: "HelveticaNeue-UltraLight";
+    font-family: "HelveticaNeue-UltraLight", sans-serif;
     font-weight: 100;
     font-size: 33px;
 }
 
 .header h4 {
-    font-family: "HelveticaNeue-Thin";
+    font-family: "HelveticaNeue-Thin", sans-serif;
     font-size: 20px;
     line-height: 24px;
     font-weight: 100;
@@ -130,6 +122,14 @@ a:link {
 
 .thumbnail:hover {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+.pg-caption h3 {
+    font-size: 30px;
+}
+
+.pg-caption p {
+    font-size: 16px;
 }
 
 @media screen and (min-width:768px) and (max-width: 991px) {
